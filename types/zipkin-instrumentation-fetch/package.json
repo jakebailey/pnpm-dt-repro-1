@@ -11,8 +11,7 @@
         "zipkin-transport-http": "^0.12.0"
     },
     "devDependencies": {
-        "@types/zipkin-context-cls": "*",
-        "@types/zipkin-instrumentation-fetch": "workspace:."
+        "@types/zipkin-context-cls": "*"
     },
     "contributors": [
         {

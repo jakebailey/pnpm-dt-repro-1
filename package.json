@@ -16,7 +16,6 @@
         "node": ">=7.8.0"
     },
     "scripts": {
-        "preinstall": "npx only-allow pnpm",
         "not-needed": "node scripts/not-needed.js",
         "update-codeowners": "node scripts/update-codeowners.js",
         "test-all": "node --require source-map-support/register node_modules/@definitelytyped/dtslint-runner/ --path .",
@@ -61,12 +60,8 @@
             "pre-commit": "npm uninstall husky"
         }
     },
-    "pnpm": {
-        "peerDependencyRules": {
-            "allowedVersions": {
-                "react-autosize-textarea>react": "*",
-                "react-autosize-textarea>react-dom": "*"
-            }
-        }
-    }
+    "workspaces": [
+        "types/**"
+    ],
+    "packageManager": "yarn@3.5.0"
 }

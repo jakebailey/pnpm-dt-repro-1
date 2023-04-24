@@ -9,9 +9,6 @@
         "@types/node": "*",
         "form-data": "^3.0.0"
     },
-    "devDependencies": {
-        "@types/node-fetch": "workspace:."
-    },
     "contributors": [
         {
             "name": "Torsten Werner",

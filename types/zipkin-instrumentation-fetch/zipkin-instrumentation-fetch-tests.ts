@@ -1,4 +1,4 @@
-import wrapFetch = require('zipkin-instrumentation-fetch');
+import wrapFetch = require('.'); // HACK: self linking in yarn3 doesn't appear to work.
 import fetch from 'node-fetch';
 
 import {

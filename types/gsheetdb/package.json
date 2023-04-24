@@ -9,9 +9,6 @@
         "@types/node": "^17.0.25",
         "google-auth-library": "^7.14.1"
     },
-    "devDependencies": {
-        "@types/gsheetdb": "workspace:."
-    },
     "contributors": [
         {
             "name": "Federico Grandi",

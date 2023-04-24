@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@types/node",
+    "name": "@types/node~v14",
     "version": "14.18.99999",
     "nonNpm": true,
     "nonNpmDescription": "Node.js",
@@ -14,9 +14,6 @@
                 "ts4.8/*"
             ]
         }
-    },
-    "devDependencies": {
-        "@types/node": "workspace:."
     },
     "contributors": [
         {
