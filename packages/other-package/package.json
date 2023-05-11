@@ -1,8 +1,0 @@
-{
-    "private": true,
-    "name": "other-package",
-    "version": "1.0.0",
-    "peerDependencies": {
-        "@types/node": "*"
-    }
-}

@@ -1,8 +1,5 @@
 {
     "private": true,
     "name": "@types/node",
-    "version": "18.16.99999",
-    "devDependencies": {
-        "@types/node": "workspace:."
-    }
+    "version": "18.16.99999"
 }
